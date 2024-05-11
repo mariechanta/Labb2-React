@@ -6,6 +6,7 @@ import "./App.css";
 // eslint-disable-next-line no-unused-vars
 import Nav from "./Nav";
 import "/index.css";
+import "./styles/index.css";
 
   const App = () => {
     return (
