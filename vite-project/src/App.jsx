@@ -100,11 +100,11 @@ const App = () => {
       {error && <ErrorComponent error={error} />}
       <SchoolContext.Provider value={{ students, teachers }}>
         <div>
-          <h2>Studenter</h2>
+          <h2>Students</h2>
           {renderStudents()}
         </div>
         <div>
-          <h2>Teacher</h2>
+          <h2>Teachers</h2>
           {renderTeachers()}
         </div>
       </SchoolContext.Provider>
