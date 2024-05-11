@@ -51,7 +51,7 @@ const reducer = (state, action) => {
 
 const fetchData = async () => {
   try {
-    const response = await axios.get('https://www.studera.nu/startpage/road-to-studies/academic-degree/teachers/');
+    const response = await axios.get('https://tyra.io/sv/moduler/');
     return response.data;
   } catch (error) {
     console.error('Error fetching data:', error);

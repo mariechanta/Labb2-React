@@ -7,7 +7,7 @@ const Header = () => {
       <><h1>Welcome to school APP</h1><img
           src="img1.png"
           alt="Beskrivande text för bilden"
-          style={{ width: '600px', height: '400px' }} /></>
+          style={{ width: '200', height: '150px' }} /></>
   );
 };
 
