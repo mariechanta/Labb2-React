@@ -11,7 +11,13 @@ const StyledHeader = styled.header`
 const Header = () => {
   return (
     <StyledHeader>
-      <h1>Skolapplikation</h1>
+      <h1>Welcome to school APP</h1>
+            <img
+                src="img1.png"
+                alt="Beskrivande text för bilden"
+                style={{ width: '1000px', height: '600px' }}
+            />
+
     </StyledHeader>
   );
 };

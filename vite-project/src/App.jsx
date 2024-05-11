@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useReducer, useContext, useMemo, useCallback } from 'react';
 import axios from 'axios';
 import styled from 'styled-components';
@@ -103,7 +104,7 @@ const App = () => {
           {renderStudents()}
         </div>
         <div>
-          <h2>Lärare</h2>
+          <h2>Teacher</h2>
           {renderTeachers()}
         </div>
       </SchoolContext.Provider>
