@@ -51,7 +51,7 @@ const reducer = (state, action) => {
 
 const fetchData = async () => {
   try {
-    const response = await axios.get('https://tyra.io/sv/moduler/');
+    const response = await axios.get('https://engelska.se/sv/');
     return response.data;
   } catch (error) {
     console.error('Error fetching data:', error);
