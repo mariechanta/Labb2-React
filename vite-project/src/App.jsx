@@ -54,6 +54,7 @@ const fetchData = async () => {
     const response = await axios.get('https://sweden.se/life/society/the-swedish-school-system');
     return response.data;
   } catch (error) {
+    console.error('Error fetching data:', error);
     throw new Error('Error fetching data');
   }
 };
