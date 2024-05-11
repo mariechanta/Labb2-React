@@ -51,7 +51,7 @@ const reducer = (state, action) => {
 
 const fetchData = async () => {
   try {
-    const response = await axios.get('https://api.example.com/data');
+    const response = await axios.get('https://sweden.se/life/society/the-swedish-school-system');
     return response.data;
   } catch (error) {
     throw new Error('Error fetching data');
