@@ -51,10 +51,12 @@ const reducer = (state, action) => {
 
 const fetchData = async () => {
   try {
-    const response = await axios.get('https://engelska.se/sv/');
+    console.log('Fetching data...'); // Loggar när vi börjar hämta data
+    const response = await axios.get('https://enkoping.se/forskola-och-skola.html');
+    console.log('Data fetched successfully:', response.data); // Loggar den hämtade datan
     return response.data;
   } catch (error) {
-    console.error('Error fetching data:', error);
+    console.error('Error fetching data:', error); // Loggar eventuella fel som uppstår
     throw new Error('Error fetching data');
   }
 };
